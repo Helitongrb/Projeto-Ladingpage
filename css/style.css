@@ -1,7 +1,26 @@
 @charset "UTF-8";
 
+/*variáveis*/
+:root{
+    --primary: #EB1CCC;
+    --secondary: #95989A;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+    
+}
+
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
