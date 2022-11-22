@@ -13,14 +13,144 @@
 
 
 *{
+    font-family: "Montserrat";
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    padding-bottom: 500px;
+}
 
-html, body{
-    width: 100vw;
-    height: 100vh;
+/*------------------ Event form (estilos lado esquerdo)--------------------*/
+
+header#event-description {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/hrz-5.jpg); /*usei uma tecnica com degrade de duas cores iguais para por a imagem com transparencia escura*/
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around; /*os objetos ficaram igualmente espaçados na borda e no meio*/
+    align-items: center;
+    color: var(--text-color);
+    
+}
+
+#disclaimer h2, #disclaimer .event-date{ /*titulo e data*/
+    color: #EB1CCC;
+}
+
+#disclaimer h2{ /*titulo*/
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#disclaimer .about-event {
+    font-size: 2em;
+    text-transform: uppercase; /*botei em letra maiuscula*/
+    max-width: 350px; /*usei para quebrar as linhas*/
+    font-weight: bold;
+    margin-bottom: 1em; /*usei para afastar elementos*/
+}
+
+#disclaimer p { /**/
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+#disclaimer .event-date{
+    font-weight: bold;
+}
+
+/*------------------ Event form (estilos do formulario)--------------------*/
+
+#subscription-form{ /*formulario*/
+    background-color: var(--secondary);
+    padding: 2em;
+    max-width: 22%;
+   
+}
+#subscription-form p{ 
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8em;
+}
+
+.form-group label{ /*nome das opções do form*/
+    color: var(--text-tertiary);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+.form-group input, .form-group select{ /*caixinhas da pergunta*/
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn { /*botões*/
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.btn:hover{
+    background-color: #eb1ca6;
+}
+
+/*------------------Benefits section (Seção de benefícios)--------------------*/
+
+#key-benefits h2{
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
 
 }
+.benefits{ /* caixa onde fica todo o conteudo abaixo do h2*/
+    display: flex;
+    justify-content: space-around; /*espaçamentos iguais */
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+.benefit{ /*caixa dos paragrafos textos */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.benefit .benefit-img { /*bolinhas*/
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1{
+    background-image: url(../img/sqr-1.jpg);
+}
+
+#benefit-2{
+    background-image: url(../img/sqr-2.jpg);
+}
+
+#benefit-3{
+    background-image: url(../img/sqr-3.jpg);
+}
+
+
 
