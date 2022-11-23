@@ -313,6 +313,11 @@ header#event-description {
 
     #disclaimer h2{
         margin-bottom: .1em;
+        font-size: 1.8em;
+    }
+    #disclaimer .about-event{
+        padding-top: 7px;
+        font-size: 1em;
     }
     #subscription-form {
         max-width: 70%;
