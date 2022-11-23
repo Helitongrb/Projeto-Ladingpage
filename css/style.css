@@ -27,7 +27,7 @@ header#event-description {
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/hrz-5.jpg); /*usei uma tecnica com degrade de duas cores iguais para por a imagem com transparencia escura*/
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around; /*os objetos ficaram igualmente espaçados na borda e no meio*/
     align-items: center;
@@ -316,7 +316,7 @@ header#event-description {
     }
     #subscription-form {
         max-width: 70%;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         border-radius: 5px;
     }
 
