@@ -298,7 +298,7 @@ header#event-description {
 
 /*------------------MOBILE--------------------*/
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
 
     /* ---------Event form-------- */
 
@@ -437,9 +437,97 @@ header#event-description {
     #subscription-form {
         max-width: 40%;
         margin-bottom: 1em;
-        margin-top: 4em;
+        margin-top: 1em;
         border-radius: 5px;
+        
     }
+    
+     /* -----Benefits section------- */
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+
+     }
+     .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+     }
+
+/* -----Event Details------- */
+     #detail-1 img {
+        
+        margin: auto;
+      }
+
+      #detail-1 h3 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+
+}
+/*------------------Desktop--------------------*/
+
+@media screen and (min-width:993px) and (max-width: 1200px) {
+    
+    /*--------- Event form--------*/
+    
+    #event-description {
+        display: flex;
+        height: 85vh;
+        justify-content: center;
+    }
+
+    #disclaimer {
+        padding: 1em;
+    }
+
+    #disclaimer h2{
+        margin-bottom: 1em;
+        font-size: 4em;
+    }
+    #disclaimer .about-event{
+        padding-top: 7px;
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+    #subscription-form {
+        max-width: 40%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        border-radius: 5px;
+        
+        
+    }
+      /* -----Benefits section------- */
+
+      .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+
+     }
+     .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+     }
+
+     /* -----Event Details------- */
+     #detail-1 img {
+        margin: auto;
+        align-items: center;
+        padding-top: 5px;
+      }
+
+      #detail-1 h3 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+    
 }
 
 
