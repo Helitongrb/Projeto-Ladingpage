@@ -419,6 +419,7 @@ header#event-description {
         display: flex;
         height: 85vh;
         justify-content: center;
+        align-items: center;
     }
 
     #disclaimer {
@@ -436,10 +437,16 @@ header#event-description {
     }
     #subscription-form {
         max-width: 40%;
-        margin-bottom: 1em;
-        margin-top: 1em;
         border-radius: 5px;
+        font-size: 16px;
+        padding-top: 1em;
         
+    }
+    .form-group input, .form-group select { /*caixinhas da pergunta*/
+        padding: 5px 7px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
     }
     
      /* -----Benefits section------- */
@@ -498,10 +505,10 @@ header#event-description {
         max-width: 40%;
         margin-bottom: 1em;
         margin-top: 1em;
-        border-radius: 5px;
-        
-        
+        border-radius: 5px;       
     }
+    
+        
       /* -----Benefits section------- */
 
       .benefits {
